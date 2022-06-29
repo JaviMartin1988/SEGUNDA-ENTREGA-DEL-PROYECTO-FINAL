@@ -244,6 +244,7 @@
         width: 150px;
         height: 50px;
         padding: 10px;
+        border-radius: 25px;
     }
     footer.footer{
         grid-area: footer;
