@@ -4,22 +4,25 @@
         <meta charset="utf-8">
         <title>REGISTRARSE</title>
         <link rel="icon" type="el tipo de archivo" href="./assets/images/icono.png">
-        <link rel="stylesheet" href="./assets/styles.css">
+        <link rel="stylesheet" type="text/css" href="./assets/stylesCts.css">
     </head>
-    <body class="padre2">
-        <section>
-        <header class="logo">
-            <img src="./assets/images/logo.png" width="200" height="200"/>
-        </header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="./index.html" style="text-decoration:none">Pagina Principal</a></li>
-                <li><a href="./iniciarsesion.html" style="text-decoration:none">Iniciar Sesion</a> </li>
-                <li><a href="./registrarse.html" style="text-decoration:none">Registrarse</a> </li>
-                <li><a href="./contacto.html" style="text-decoration:none">Contactanos</a></li>     
-            </ul>
-        </nav>
-                <form>
+    <body>
+        <div class="padre">
+            <div class="logo"><img src="./assets/images/logo.png" width="" height=""></div>
+            <div class="navbar">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="./index.html" style="text-decoration:none">Pagina Principal</a></li>
+                        <li><a href="./iniciarsesion.html" style="text-decoration:none">Iniciar Sesion</a> </li>
+                        <li><a href="./registrarse.html" style="text-decoration:none">Registrarse</a> </li>
+                        <li><a href="./contacto.html" style="text-decoration:none">Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <header class="titulo">
+                <h3>REGISTRARSE</h3>
+            </header>
+            <hgroup class="formulario">
                     <fieldset class="fieldset">
                         <legend>REGISTRATE</legend>
                         <label for="">¿Eres mayor de edad?</label>
@@ -28,8 +31,6 @@
                         <label>No</label>
                         <input type="radio" name="" id="no">
                     </fieldset>
-                </form>
-                <form>  
                     <fieldset class="fieldset2">
                         <legend>INGRESA TUS DATOS</legend>
                         <input type="text" placeholder="Ingresa tu Nick"><br>
@@ -40,17 +41,50 @@
                         <label for="Observaciones"> Pregunta Secreta:<br>
                         <textarea placeholder="¿Quien es tu jugador de futbol favorito?"></textarea>
                         </label> <br>
-                        </select>
+                    </fieldset>
+                    <fieldset class="fieldset3">
                         <div>¿Queres recibir info sobre nosotros?
-                        <input type="checkbox" name="acepta" value="1"></div>
+                        <input type="checkbox" name="acepta" value="1">
                         <input type="reset" value="Limpiar datos">
                         <input type="submit">
-                        </form>
-            </fieldset>
+                        </div>
+                    </fieldset>   
+            </hgroup>
+            <aside class="aside">WEBS AMIGAS
+                <nav class="pestañas">
+                    <a href="https://alfabetajuega.com/guia/guia-completa-garena-free-fire-secretos-trucos-armas-personajes">
+                    <img class="centrado" src="./assets/images/alfabeta.PNG"width="" height="">
+                    </a>
+                    <a href="https://ff.garena.com/index/es/">
+                    <img class="centrado" src="./assets/images/garena.png"width="" height="">
+                    </a>
+                    <a href="https://www.ligadegamers.com/free-fire-mejores-armas/">
+                    <img class="centrado" src="./assets/images/ligadegamers.PNG"width="" height="">
+                    </a>
+                    <a href="https://todofreefire.com/">
+                    <img class="centrado" src="./assets/images/todoff.PNG"width="" height="">
+                    </a>                
+                    <a href="https://vandal.elespanol.com/guias/guia-free-fire-trucos-consejos-y-secretos/personajes">
+                    <img class="centrado" src="./assets/images/vandal.PNG"width="" height="">
+                    </a>
+                    <a href="https://ligadecracks.com/free-fire/armas/todas-las-armas-de-free-fire/">
+                    <img class="centrado" src="./assets/images/ligadecracks.PNG"width="" height="">
+                    </a>                
+                    <a href="https://freefireleague.com/">
+                    <img class="centrado" src="./assets/images/freefireleague.PNG"width="" height="">
+                    </a>
+                </nav>
+            </aside>
             <footer class="footer">
-                <img src="./assets/images/icono.png" width="30" height="30">
-                <h3 class="derechos">Derechos Reservados 2022-2023</h3>
+                <div class="redes">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-vk"></i>
+                    <img src="./assets/images/icono.png" width="30px" height="30px">
+                    <h3 class="derechos">Derechos Reservados 2022-2023</h3>
+                </div>
             </footer>
-        </section>
     </body>
-    </html>
+
+</html>

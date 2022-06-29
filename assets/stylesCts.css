@@ -12,7 +12,7 @@
         column-gap: 10px;
         row-gap: 10px;
         grid-template-columns: 900px 200px;
-        grid-template-rows: 15% 15% 15% 40% 15%;
+        grid-template-rows: 100px 100px 100px 350px 100px;
         grid-template-areas:"logo logo"
                             "navbar navbar"
                             "titulo aside"
