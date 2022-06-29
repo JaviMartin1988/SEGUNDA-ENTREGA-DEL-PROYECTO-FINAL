@@ -76,11 +76,11 @@
         animation-delay: 2s;
     }
     @keyframes titulo{
-        0%{transform: translate(-300px,0px);}
-        25%{transform: translate(300px,0px);}
-        50%{transform: translate(300px,0px);}
-        75%{transform: translate(-300px,0px);}
-        100%{transform: translate(-300px,0px);}
+        0%{transform: translate(-150px,0px);}
+        25%{transform: translate(150px,0px);}
+        50%{transform: translate(150px,0px);}
+        75%{transform: translate(-150px,0px);}
+        100%{transform: translate(-150px,0px);}
     }
     .hayato{
         grid-area: hayato;
